@@ -25,12 +25,12 @@ import './App.css'
       const fahrenheit = Math.floor(celsius * (9/5) + 32)
         if(city && country){
           this.setState({
-            temperature: fahrenheit,
-            city: response.name,
-            country: response.sys.country,
-            humidity: response.main.humidity,
-            description: response.weather[0].description,
-            error: ""
+            temperature: ' ' + fahrenheit + '°F',
+            city: ' ' + response.name,
+            country: ' ' + response.sys.country,
+            humidity: ' ' + response.main.humidity + '%',
+            description: ' ' + response.weather[0].description,
+            error: ''
           })
         } else {
             this.setState({
