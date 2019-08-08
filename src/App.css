@@ -25,13 +25,13 @@ body {
 
 .title-container {
   height: 90vh;
-  background: url(./app-background-photo.jpg) center center no-repeat;
+  background: url(./app-background-photo.jpg) center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: rgb(11, 3, 82);
+  color: white;
 }
 
 .title-container__title {
@@ -60,7 +60,7 @@ body {
 input[type="text"] {
   background-color: transparent;
   border: 0;
-  border-bottom: solid 1px #f16051;
+  border-bottom: solid 1px white;
   width: 30%;
   padding-bottom: 4px;
   color: #fff !important;
@@ -106,7 +106,7 @@ button:active {
 }
 
 .weather__key {
-  color: #f16051;
+  color: #49aee9;
   border-bottom: solid 2px rgba(255,255,255,0.06);
   padding: 20px 0 20px 0;
   font-weight: 400;
